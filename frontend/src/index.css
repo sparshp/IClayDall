@@ -1,0 +1,21 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.states_scroll::-webkit-scrollbar{
+  display:none;
+}
+.offer__img::-webkit-scrollbar{
+  display:none;
+}
+@media screen and (max-width:770px){
+  .mid_nav{
+     
+  }
+}
